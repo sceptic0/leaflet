@@ -1,0 +1,51 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>1</title>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""></script>
+        <script src="https://npmcdn.com/leaflet-geometryutil"></script>
+        <script src="https://ppete2.github.io/Leaflet.PolylineMeasure/Leaflet.PolylineMeasure.js"></script>
+<script src="https://unpkg.com/@raruto/leaflet-elevation/dist/leaflet-elevation.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""/>
+      <link rel="stylesheet" href="https://unpkg.com/@raruto/leaflet-elevation/dist/leaflet-elevation.css" />
+        <link rel="stylesheet" href="https://ppete2.github.io/Leaflet.PolylineMeasure/Leaflet.PolylineMeasure.css" />
+        <style>
+            body {padding: 0; margin: 0;}
+            html, body{height: 100%}
+        </style>
+    </head>
+
+    <body>
+        <div id="map1" style="height: 500px;"></div>
+        <div id="map2" style="height: 500px;"></div>
+        <div class="mb-5">
+          <h2> ex1 </h2>
+          <button onclick="addToStorage()"> add to storage </button>
+          <button onclick="getFromStorage()"> get from storage </button>
+          <button onclick="getFromArr()"> get from arr </button>
+          <button onclick="initPolyline()"> set polyline </button>
+          <p id="localStorageList">
+
+          </p>
+        </div>
+        <!-- <div class="mb-5">
+          <h2> ex2 </h2>
+          <button onclick="addToStorage2()"> add to storage </button>
+          <button onclick="getFromStorage2()"> get from storage </button>
+          <p id="localStorageList2">
+
+          </p>
+        </div> -->
+        <!-- <div id="map3" style="height: 650px;"></div> -->
+        <script src="./map1.js"></script>
+        <script src="./map2.js"></script>
+        <!-- <script src="./map3.js"></script> -->
+    </body>
+</html>
+<!-- leaflet-elevation -->
